@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Favoritos - Trabalho Prático</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <header class="navbar-custom">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="index.html" style="text-decoration:none;">
+        <h2 class="logo">Trabalho Prático</h2>
+      </a>
+      <nav class="d-flex align-items-center gap-3">
+        <a href="index.html">Início</a>
+        <a href="index.html#cards">Desenvolvedores</a>
+        <span id="login-status"></span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <h3 class="section-title">★ Meus Favoritos</h3>
+    <p style="color:#c7d5e0; margin-bottom:30px;">Desenvolvedores que você marcou como favoritos.</p>
+    <div class="row" id="favoritos-container"></div>
+    <div id="msg-vazio" style="display:none; text-align:center; padding:60px 0;">
+      <p style="color:#c7d5e0; font-size:18px;">Você ainda não favoritou nenhum desenvolvedor.</p>
+      <a href="index.html#cards" class="btn-custom d-inline-block mt-3">Ver Desenvolvedores</a>
+    </div>
+  </main>
+
+  <div id="toast-notif" class="toast-notif" style="display:none;"></div>
+
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    renderLoginStatus();
+  </script>
+
+</body>
+</html>
