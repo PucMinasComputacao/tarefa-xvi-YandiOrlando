@@ -16,9 +16,9 @@ Habilidades a Serem Trabalhadas Montagem de ambiente de desenvolvimento com Node
 - Matricula: 909840
 
 ## Prints do trabalho
-### Tela principal logada: 
+### Tela principal logada com função de deletar e adicionar: 
 ![alt text](public/assets/img/logado.png)
-### Tela de favoritos: 
+### Tela de detalhes com opção de editar e deletar: 
 ![alt text](public/assets/img/favoritos.png)
 
 
@@ -28,6 +28,10 @@ Habilidades a Serem Trabalhadas Montagem de ambiente de desenvolvimento com Node
 2. entre na pasta raiz do site
 3. json-server --watch db/db.json --static public --port 3000
 4. Acesse no navegador: http://localhost:3000
+5. Faça login como: 
+   Usuário: admin
+   Senha: 123
+6. Teste o site
 
 ## Estrutura do db.json
  
